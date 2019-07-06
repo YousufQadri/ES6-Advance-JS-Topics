@@ -6,7 +6,7 @@
 */
 
 /* ===================*/
-// ! Scenario
+// ! Normal Scenario
 /* ===================*/
 
 // Try one example at a time
@@ -21,6 +21,12 @@ let a = "oops"; //Output: ReferenceError: Cannot access 'a' before initializatio
 // let a;
 // console.log(a); //Output: undefined
 // a = "yousuf";
+
+/* --------------------------------------------*/
+
+/* ===================*/
+// ! Scope Scenarios
+/* ===================*/
 
 /* --------------------------------------------*/
 
