@@ -7,15 +7,17 @@
 // ! Object Literal Properties
 /* ===========================*/
 
+// Try one example at a time
+
 /* OLD Way (ES5) */
 
-// var name = "Yousuf",
-//     prof = "Developer";
+var name = "Yousuf",
+    prof = "Developer";
 
-// var obj = {
-//     name: name,
-//     prof: prof
-// }
+var obj = {
+    name: name,
+    prof: prof
+}
 
 
 /* --------------------------------------------*/
@@ -56,14 +58,14 @@
 
 /* NEW way (ES6) */
 
-let obj = {
-    a() {
-        return 1;
-    },
-    b() {
-        return 2;
-    }
-}
+// let obj = {
+//     a() {
+//         return 1;
+//     },
+//     b() {
+//         return 2;
+//     }
+// }
 
-console.log(obj.a());
-console.log(obj.b());
+// console.log(obj.a());
+// console.log(obj.b());

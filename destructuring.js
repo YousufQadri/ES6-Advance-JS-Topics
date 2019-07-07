@@ -9,6 +9,8 @@
 // ! Array Destructuring
 /* ===================*/
 
+// Try one example at a time
+
 /* OLD Way (ES5) */
 
 var arr = ["Pak", "China", "Turkey"];

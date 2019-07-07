@@ -36,7 +36,7 @@ let a = "oops"; //Output: ReferenceError: Cannot access 'a' before initializatio
 //   let a = "inside";
 //   console.log(a); // Output: inside
 // }
-// console.log(a); //Output: var
+// console.log(a); //Output: outside
 
 // ? Same named variable can be declared with var and let in different scopes. (Not recommended)
 

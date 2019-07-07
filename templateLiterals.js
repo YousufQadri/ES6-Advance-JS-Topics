@@ -9,6 +9,8 @@
 // ! Multi Line String
 /* ===================*/
 
+// Try one example at a time
+
 /* OLD Way (ES5) */
 
 console.log("Welcome to my\n" +

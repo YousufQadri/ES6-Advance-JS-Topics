@@ -1,6 +1,8 @@
 // * ARROW FUNCTION
 /*
-    ? ES6 provides a cleaner way of defining object literal methods and properties.
+    ? Also know as fat arrow function and the are always anonymous.
+    ? By using arrow function we can avoid typing keywords "function", "return" & curly braces `{}` (if function returns a single line) 
+    ? Arrow functions doesn't have it's own `this`
 */
 
 // Try one example at a time
