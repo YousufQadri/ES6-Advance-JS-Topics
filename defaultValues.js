@@ -1,6 +1,6 @@
 // * DEFAULT VALUES
 /*
-    ? ES6 provides a cleaner way of defining object literal methods and properties.
+    ? Default values are passed in arguments when required number of arguments are not passed.
 */
 
 // Try one example at a time
