@@ -61,7 +61,7 @@ check(obj);
 
 // for (var i of arr) {
 //     console.log(i); // Output: 3, 5, 7
-}
+// }
 
 // ? `For Of` loop iterates over iterable objects.
 // ? Because foo is not a valid it's not iterating over it.
