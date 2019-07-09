@@ -14,12 +14,12 @@
 
 /* --------------------------------------------*/
 
-// const shapes = ["circle", "square", "rectangle"];
-// const objects = ["pen", "pencil", "book"];
+const shapes = ["circle", "square", "rectangle"];
+const objects = ["pen", "pencil", "book"];
 
-// const shapesWithObjects = shapes.concat(objects); // Using concat we combine 2 arrays in a new one.
+const shapesWithObjects = shapes.concat(objects); // Using concat we combine 2 arrays in a new one.
 
-// console.log(shapesWithObjects); // Output: [“circle”, “square”, "rectangle" , “pen”, “pencil”, “book]
+console.log(shapesWithObjects); // Output: [“circle”, “square”, "rectangle" , “pen”, “pencil”, “book]
 
 // ? To merge 2 array values we used concat.
 
@@ -42,9 +42,9 @@
 
 /* --------------------------------------------*/
 
-const items = ["This", "is", "a", "sentence"];
-console.log(items); // Output: ["This", "is", "a", "sentence"]
-console.log(...items); // Output: This is a sentence
+// const items = ["This", "is", "a", "sentence"];
+// console.log(items); // Output: ["This", "is", "a", "sentence"]
+// console.log(...items); // Output: This is a sentence
 
 // ? WHY The output came as a string.??
 // ? When we used the spread operator it expanded or plucked out all the array values.

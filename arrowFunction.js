@@ -1,6 +1,6 @@
 // * ARROW FUNCTION
 /*
-    ? Also know as fat arrow function and the are always anonymous.
+    ? Also know as fat arrow function and they are always anonymous.
     ? By using arrow function we can avoid typing keywords "function", "return" & curly braces `{}` (if function returns a single line) 
     ? Arrow functions doesn't have it's own `this`
 */
