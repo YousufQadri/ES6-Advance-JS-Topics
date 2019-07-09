@@ -22,7 +22,7 @@ console.log(sum(5, 4)); // Output: 9
 console.log(sum(5, 4, 10)); // Output: 9
 
 // ? If the number of arguments are greater than the parameters it neglects that extra argument and store it in an argument list.
-// ? Here all the values are stored in an argument array which is not a real array.
+// ? Here all the values are stored in an argument array-like object which is not a real array.
 // ? In this situation Rest Parameters come in handy.
 
 /* --------------------------------------------*/
@@ -50,3 +50,33 @@ console.log(sum(5, 4, 10)); // Output: 9
 // ? REST parameters are real-array means array methods like map, forEach push or pop can be applied on it directly;
 // ? NOTE: Rest parameter have to be the last argument, as its job is to collect all the remaining arguments into an array.
 // ? In short: Only the last parameter can be a "rest parameter".
+
+/* --------------------------------------------*/
+
+/* =====================================*/
+// ! REST Parameters with Destructuring
+/* =====================================*/
+
+/* --------------------------------------------*/
+
+// let obj = {
+//     name: "Yousuf",
+//     age: 22,
+//     clas: "Advance JS",
+//     num: 123456,
+//     address: "abc street",
+//     code: 1111
+// }
+
+// let { name, age, clas, ...contact } = obj;
+
+// console.log(name);
+// console.log(age);
+// console.log(clas);
+// console.log(contact);
+
+// ? Here we are also using REST parameters. Don't think REST is only limited to function parameters. NO!
+// ? As in this scenario, we are using REST in an object. But as I told you already in the beginning the usage ... define it is REST or SPREAD.
+// ? In this example, first three variables are bieng plucked from the object.
+// ? When taking a single values from the object we have to use same name as of the key.
+// ? The last parameter `contact` grabs all the rest of the object values.
